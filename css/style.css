@@ -1,0 +1,148 @@
+body {
+   margin: 0px; padding: 0px;
+}
+
+.responsive-message {
+   display: none;
+   font-family: 'Roboto-Regular';
+   text-align: center;
+   margin: 0px 30px;
+   margin-top: 50vh;
+   transform: translateY(-50%);
+}
+
+.wrapper {
+   margin: 0 auto;
+   width: 75%;
+   transition: all 0.3s ease;
+   position: relative;
+}
+
+.wrapper-img {
+   margin: 0 auto;
+   width: 60%;
+   transition: all 0.3s ease;
+   position: relative;
+}
+
+.grid-full {
+   width: 100%;
+   position: fixed;
+   transition: all 0.2s ease-in-out;
+}
+.grid {
+   border-right: solid rgba(128,128,128,0.1) 1px;
+   height: 100vh;
+   width: 24.87%;
+   float: left;
+   z-index: -1;
+}
+
+.grid:first-child {
+   border-left: solid rgba(128,128,128,0.1) 1px;
+}
+
+.section {
+   height: 100vh;
+   border: solid 1px black;
+}
+
+.header-top-project {
+   font-family: 'Roboto-Regular';
+   color: #FAFAFA;
+   padding-top: 10vh;
+   z-index: 1;
+   position: absolute;
+}
+.header-top {
+   font-family: 'Roboto-Regular';
+   color: #FAFAFA;
+   padding-top: 10vh;
+   z-index: 1;
+}
+
+.me-content-full {
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   transition: all 0.3s ease;
+}
+
+.project-content {
+   height: 83vh;
+   position: relative;
+   z-index: 1;
+}
+
+.project-list {
+   z-index: 1;
+}
+
+.project-list-item {
+   font-family: 'Roboto-Medium';
+   display: block;
+   line-height: 80px;
+   font-size: 60px;
+   width: 100%;
+   transition: all 0.3s ease;
+}
+
+.link-project-item:hover {
+   opacity: 0.3;
+   transition: all 0.5s ease-in-out;
+}
+
+.project-list li:first-child:hover ~ .background  {
+  background: #739CBF;
+}
+
+.project-list li:nth-child(2):hover ~ .background  {
+  background: #d8c290;
+}
+
+.project-list li:nth-child(3):hover ~ .background  {
+  background: #FAFAFA;
+}
+
+.project-list li:nth-child(4):hover ~ .background  {
+  background: #80b479;
+}
+
+.project-list li:nth-child(5):hover ~ .background  {
+  background: #facc33;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s ease;
+}
+
+.bottom-list {
+   font-family: "Roboto-Light";
+   height: 10vh;
+}
+
+.bottom-item {
+   padding-right: 20px;
+   z-index: 1;
+   opacity: 1;
+   transition: all 0.5s ease-in-out;
+   position: relative;
+}
+
+.bottom-item:hover {
+   opacity: 0.4;
+   transition: all 0.5s ease-in-out;
+}
+
+.nespressobg {background-color: #d8c290;}
+.flowersbg {background-color: #80b479}
+.renaultbg {background-color: #facc33;}
+.commetoitbg {background-color: #739CBF;}
+.bg {background-color: #FAFAFA;}

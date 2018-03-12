@@ -1,0 +1,23 @@
+@media screen and (max-width: 1268px) { .grid {width: 100%;} }
+
+@media screen and (max-width: 1085px) {
+   .font {font-size: 55px}
+   .project-list-item {font-size: 50px; line-height: 60px;}
+}
+
+@media screen and (max-width: 563px) {
+   .font {font-size: 40px}
+   .project-list-item {font-size: 30px; line-height: 50px;}
+}
+
+
+/* IPHONE 5 AND - */
+@media screen and (max-width: 320px) {
+   .fullpage {display: none;}
+   .responsive-message {display: block; }
+}
+
+@media screen and (max-height: 400px) {
+   .fullpage {display: none;}
+   .responsive-message {display: block;}
+}
