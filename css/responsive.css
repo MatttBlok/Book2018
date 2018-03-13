@@ -5,11 +5,22 @@
    .project-list-item {font-size: 50px; line-height: 60px;}
 }
 
-@media screen and (max-width: 563px) {
-   .font {font-size: 40px}
-   .project-list-item {font-size: 30px; line-height: 50px;}
+@media screen and (max-width: 785px) {
+   .wrapper {width: 85%;}
+   .project-title {font-size: 70px;}
+   br:last-child {display: none;}
 }
 
+@media screen and (max-width: 563px) {
+   .font {font-size: 45px}
+   .project-list-item {font-size: 30px; line-height: 50px;}
+   .project-title {font-size: 40px;}
+   .grid {display: none;}
+}
+
+@media screen and (max-width: 425px) {
+   .project-keyword {display: block; padding-top: 10px;}
+}
 
 /* IPHONE 5 AND - */
 @media screen and (max-width: 320px) {
@@ -17,7 +28,7 @@
    .responsive-message {display: block; }
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 500px) {
    .fullpage {display: none;}
    .responsive-message {display: block;}
 }

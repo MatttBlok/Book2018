@@ -24,7 +24,8 @@
 }
 
 a:link {color: #212121; text-decoration: none;}
-a:visited {color: #212121	; text-decoration: none,}
+a:visited {color: #212121	; text-decoration: none}
+
 
 h1 {
 	font-size: 16px;
@@ -76,11 +77,12 @@ h1 {
 }
 
 .letter-color {
-	color: #C5C3C6;
+	color: #1F01B9;
 }
 
 a {
   position: relative;
+  transition: all 0.3s ease;
 }
 
 .font {
@@ -88,13 +90,7 @@ a {
    font-size: 70px;
    transition: all 0.3s ease;
    z-index: 1;
-   color: #212121;
+	color: #C5C3C6;
 }
 
-strong {
-	font-family: "Roboto-Medium";
-	font-size: 15px;
-	color: #212121;
-	padding-right: 20px;
-
-}
+strong {font-family: "Roboto-Roboto";}
