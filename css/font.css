@@ -26,6 +26,12 @@
 a:link {color: #212121; text-decoration: none;}
 a:visited {color: #212121	; text-decoration: none}
 
+a:link {color: #212121; text-decoration: none;}
+a:visited {color: #212121	; text-decoration: none}
+
+a:link {color: #212121; text-decoration: none;}
+a:visited {color: #212121	; text-decoration: none}
+
 
 h1 {
 	font-size: 16px;
@@ -51,7 +57,7 @@ h1 {
 }
 
 .blue {
-	color: #1F01B9;
+	color: #0e349f;
 }
 
 .black {
@@ -60,10 +66,6 @@ h1 {
 
 .grey {
 	color: grey;
-}
-
-.white {
-	color: #FAFAFF;
 }
 
 .plus-span {
@@ -94,3 +96,9 @@ a {
 }
 
 strong {font-family: "Roboto-Roboto";}
+
+.nespresso {color: #614c31;}
+
+.flowers {color: #80b479}
+
+.renault {color: #facc33;}

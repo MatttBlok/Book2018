@@ -24,11 +24,11 @@
 
 /* IPHONE 5 AND - */
 @media screen and (max-width: 320px) {
-   .fullpage {display: none;}
-   .responsive-message {display: block; }
+   .font {font-size: 38px;}
+   .section-project {padding: 20px 0px;}
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 400px) {
    .fullpage {display: none;}
-   .responsive-message {display: block;}
+   .responsive-message {display: inline;}
 }

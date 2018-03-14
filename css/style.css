@@ -5,15 +5,14 @@ body {
 .responsive-message {
    display: none;
    font-family: 'Roboto-Regular';
+   height: 100vh;
+   line-height: 100vh;
    text-align: center;
-   margin: 0px 30px;
-   margin-top: 50vh;
-   transform: translateY(-50%);
 }
 
 .wrapper {
    margin: 0 auto;
-   width: 75%;
+   width: 80%;
    transition: all 0.3s ease;
 }
 
@@ -168,7 +167,7 @@ body {
 
 .style-img-project {
    width: 100%;
-   padding-bottom: 30px;
+   margin-bottom: 30px;
    z-index: 1;
    position: relative;
 }
@@ -176,24 +175,24 @@ body {
 
 .style-img-project:last-child {
    width: 100%;
-   padding-bottom: 0px;
+   margin-bottom: 0px;
 }
 
 .project-footer {
-   height: 15vh;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
+   padding: 10vh 0px;
 }
 
 .next-baseline-project {
    font-family: "Roboto-Regular";
    color: #1F01B9;
+   padding-bottom: 8px;
+   border-bottom: solid 1px #212121;
 }
 
+.next-baseline-project:hover {
+   opacity: 0.3;
+}
 
-.nespressobg {background-color: #d8c290;}
-.flowersbg {background-color: #80b479}
-.renaultbg {background-color: #facc33;}
-.commetoitbg {background-color: #739CBF;}
-.bg {background-color: #FAFAFA;}
+.next-baseline-project:last-child {
+   float: right;
+}
