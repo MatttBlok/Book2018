@@ -19,16 +19,19 @@
    .project-keyword {letter-spacing: -0.5px;}
 }
 
-@media screen and (max-width: 425px) {
-   .project-keyword {display: block; padding-top: 10px;}
+@media screen and (max-width: 360px) {
+   /* .project-keyword {display: block; padding-top: 10px;} */
 }
 
 /* IPHONE 5 AND - */
 @media screen and (max-width: 320px) {
    .font {font-size: 38px;}
    .section-project {padding: 20px 0px;}
+   .project-keyword {display: block; padding-top: 10px;}
+   video {margin-top: 30px;}
 }
 
+/* FLIP RESPONSIVE */
 @media screen and (max-height: 400px) {
    #fullpage {display: none;}
    .responsive-message {display: inline;}
