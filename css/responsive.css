@@ -16,6 +16,7 @@
    .project-list-item {font-size: 30px; line-height: 50px;}
    .project-title {font-size: 40px;}
    .grid {display: none;}
+   .project-keyword {letter-spacing: -0.5px;}
 }
 
 @media screen and (max-width: 425px) {
