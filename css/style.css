@@ -4,7 +4,8 @@ body {
 
 .responsive-message {
    display: none;
-   font-family: 'Roboto-Regular';
+   font-family: 'Roboto';
+   font-weight: 300;
    height: 100vh;
    line-height: 100vh;
    text-align: center;
@@ -14,13 +15,6 @@ body {
    margin: 0 auto;
    width: 80%;
    transition: all 0.3s ease;
-}
-
-.wrapper-img {
-   margin: 0 auto;
-   width: 60%;
-   transition: all 0.3s ease;
-   position: relative;
 }
 
 .grid-full {
@@ -41,7 +35,6 @@ body {
 }
 
 .header-top {
-   font-family: 'Roboto-Regular';
    color: #FAFAFA;
    padding-top: 8vh;
    z-index: 1;
@@ -66,11 +59,11 @@ body {
 }
 
 .project-list-item {
-   font-family: 'Roboto-Medium';
+   font-family: 'Roboto';
+   font-weight: 500;
    display: block;
    line-height: 80px;
    font-size: 60px;
-   width: 100%;
    transition: all 0.3s ease;
 }
 
@@ -79,40 +72,9 @@ body {
    transition: all 0.5s ease-in-out;
 }
 
-.project-list li:first-child:hover ~ .background  {
-  background: #739CBF;
-}
-
-.project-list li:nth-child(2):hover ~ .background  {
-  background: #d8c290;
-
-}
-
-.project-list li:nth-child(3):hover ~ .background  {
-  background: #FAFAFA;
-}
-
-.project-list li:nth-child(4):hover ~ .background  {
-  background: #80b479;
-}
-
-.project-list li:nth-child(5):hover ~ .background  {
-  background: #facc33;
-}
-
-.background {
-  position: fixed;
-  z-index: -1;
-  top: 40%;
-  right: 0;
-  bottom: 0;
-  left: 100%;
-  width: 75%;
-  transition: .25s ease;
-}
 
 .bottom-list {
-   font-family: "Roboto-Light";
+   font-family: "Roboto";
    height: 10vh;
 }
 
@@ -137,11 +99,14 @@ body {
    justify-content: center;
    flex-direction: column;
 }
-.section-img-bg {height: 100vh;}
+.section-img-bg {
+   height: 100vh;
+}
 
 .project-title {
    transition: all 0.3s ease-in-out;
-   font-family: "Roboto-Medium";
+   font-family: "Roboto";
+   font-weight: 500;
    font-size: 100px;
    padding-bottom: 30px;
 }
@@ -155,7 +120,8 @@ body {
 }
 
 .project-keyword {
-   font-family: "Roboto-Bold";
+   font-family: "Roboto";
+   font-weight: 600;
    font-size: 15px;
    padding-top: 50px;
    padding-right: 25px;
@@ -172,7 +138,6 @@ body {
    position: relative;
 }
 
-
 .style-img-project:last-child {
    width: 100%;
    margin-bottom: 0px;
@@ -180,19 +145,4 @@ body {
 
 .project-footer {
    padding: 10vh 0px;
-}
-
-.next-baseline-project {
-   font-family: "Roboto-Regular";
-   color: #1F01B9;
-   padding-bottom: 8px;
-   border-bottom: solid 1px #212121;
-}
-
-.next-baseline-project:hover {
-   opacity: 0.3;
-}
-
-.next-baseline-project:last-child {
-   float: right;
 }
