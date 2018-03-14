@@ -30,6 +30,6 @@
 }
 
 @media screen and (max-height: 400px) {
-   .fullpage {display: none;}
+   #fullpage {display: none;}
    .responsive-message {display: inline;}
 }

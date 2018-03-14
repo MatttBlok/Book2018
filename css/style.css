@@ -145,5 +145,18 @@ body {
 }
 
 .project-footer {
-   padding: 10vh 0px;
+   padding: 5vh 0px;
+}
+
+.next-baseline-project {
+   font-family: "Roboto";
+   font-weight: 300;
+}
+
+.next-baseline-project:hover {
+   opacity: 0.5;
+}
+
+.next-baseline-project:nth-child(2) {
+   float: right;
 }
